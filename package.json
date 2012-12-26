@@ -27,7 +27,6 @@
         "build": "_coffee -c lib/",
         "clean": "rm lib/*.js",
         "codo": "codo && codo --server",
-        "postinstall": "npm run build",
         "test": "mocha"
     },
     "keywords": [
